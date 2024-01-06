@@ -8,8 +8,6 @@ for(var i=0;i<navMenuAnchorTags.length;i++){
     });
 }
 
-
-
 // skill bar
 var progressBars=document.querySelectorAll('.skill-progress>div');;
 var skillsContainer=document.getElementById('skills-container');
