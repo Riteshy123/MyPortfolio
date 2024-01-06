@@ -406,7 +406,7 @@ color: rgb(0, 201, 255);
     height:auto;
     display:flex;
     flex-direction:column;
-    background-image:linear-gradient(#2857a4,#403066);
+    background-image:linear-gradient(to right,#2857a4,#403066);
     align-items:center;
 }
 #headofcontact{
@@ -673,4 +673,20 @@ color: rgb(0, 201, 255);
     text-decoration: none;
     font-size: smaller;
 }
+
+#para {
+    font-size: large;
+}
+a {
+    text-decoration: none !important;
+  }
+  
+.float-right{
+  text-align: end;
+  margin-right: -560px;
+  margin-top: -50px;
+
+}
+
+
 

@@ -27,18 +27,22 @@ html{
 .btn{
     font-weight: 500;
     padding: 12px 20px;
-    background: #efefef;
+    background: var(--second-color);
     border: none;
     border-radius: 10px;
     cursor: pointer;
     transition: .4s;
 }
+.blue-btn{
+    background-color: rgb(0, 201, 255);;
+}
+
 
 .btn>i{
     margin-left: 10px;
 }
 .btn:hover{
-    background: var(--second-color);
+    background: var( --first-color);
     color: var(--color-white);
 }
 
